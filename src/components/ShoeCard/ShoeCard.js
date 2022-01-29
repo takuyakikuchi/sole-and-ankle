@@ -85,7 +85,6 @@ const Flag = styled.div`
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
-  flex: 1 1 320px;
 `;
 
 const Wrapper = styled.article`
