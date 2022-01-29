@@ -34,12 +34,12 @@ const Select = ({ label, value, children, ...delegated }) => {
 
 const Wrapper = styled.label`
   display: flex;
+  align-items: baseline;
 `;
 
 const VisibleLabel = styled.span`
   color: ${COLORS.gray[700]};
   margin-right: 16px;
-  line-height: 3; // Height of the select element
 `;
 
 const SelectWrapper = styled.div`
